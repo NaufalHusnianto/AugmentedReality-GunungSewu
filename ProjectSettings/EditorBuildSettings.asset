@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: daf2b882ddb54074790afc16f956b0ec
+  - enabled: 1
+    path: Assets/Scenes/IkanButa.unity
+    guid: 9009ec72a3a67bf47a49a4bde7a18c15
+  - enabled: 1
+    path: Assets/Scenes/Kepiting.unity
+    guid: a5c99a99815988f4796519443f1d9131
+  - enabled: 1
+    path: Assets/Scenes/Udang.unity
+    guid: 50cc1ee6a9557fe4dbad98f88bb8dc56
+  - enabled: 1
+    path: Assets/Scenes/Kalacemeti.unity
+    guid: 30ae28b7b97d4424fb2df6d792464b5c
+  - enabled: 1
+    path: Assets/Scenes/MateriGua.unity
+    guid: 72fc25f62a975964c888c28d16b0498d
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c199e683398494f32b4cde18e73ab731, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fd4fc0127790db4bae83f7b77da8d45, type: 2}
