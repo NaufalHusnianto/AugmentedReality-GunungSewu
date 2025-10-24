@@ -542,7 +542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &314439192
 RectTransform:
   m_ObjectHideFlags: 0
@@ -871,8 +871,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ditemukan di: Gua Groda, Jlamprong, Toto, Gremeng, Ndilem, dan Trinting
-    (Kawasan Karst Gunungsewu).'
+  m_text: Ditemukan di Gua-gua bawah tanah kawasan Karst Gunungsewu, Gua Serpeng,
+    Seropan  Yogyakarta.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
@@ -968,7 +968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &558544360
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1209,9 +1209,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Termasuk kategori Rentan (Vulnerable) oleh IUCN. Populasinya terancam akibat
-    gangguan habitat gua dan aktivitas manusia. Diperlukan perlindungan lokasi gua
-    tempat berkoloni.
+  m_text: Ditetapkan sebagai spesies terancam punah (Endangered) oleh IUCN dan dilindungi
+    oleh SK Menteri Pertanian No. 716/Kpts/Um/10/1980. Diperlukan pengendalian limbah
+    rumah tangga yang mencemari sungai bawah tanah.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
@@ -2158,7 +2158,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239425072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.018}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0062}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2166,7 +2166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.023, y: -0.143}
+  m_AnchoredPosition: {x: -0.0253, y: -0.254}
   m_SizeDelta: {x: 0.8584, y: 0.7774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1239425074
@@ -2189,7 +2189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sistem ekolokasi untuk berburu dan navigasi di kegelapan total.
+  m_text: Hilangnya pigmentasi dan mata sebagai bentuk adaptasi terhadap kegelapan.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
@@ -2430,7 +2430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1452881665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2717,6 +2717,7 @@ GameObject:
   - component: {fileID: 1497979962}
   - component: {fileID: 1497979961}
   - component: {fileID: 1497979966}
+  - component: {fileID: 1497979967}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2983,6 +2984,23 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1497979967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497979959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
+  m_OriginBaseGameObject: {fileID: 1497979959}
+  m_CameraFloorOffsetObject: {fileID: 0}
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!1 &1508438708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,88 +3135,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508438708}
   m_CullTransparentMesh: 1
---- !u!1001 &1549581853
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1938824361}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.464
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.082
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -18.086
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.83694804
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.54728246
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -66.362
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4947229441989045917, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 870c09970c866d34ab79cdfeb5cafe52, type: 2}
-    - target: {fileID: 919132149155446097, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-      propertyPath: m_Name
-      value: VAMP_BAT
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
---- !u!4 &1549581854 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c4faa6e0c86ba3b45b12adfb08c23031, type: 3}
-  m_PrefabInstance: {fileID: 1549581853}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1576114646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,7 +3376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1614049499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,7 +3490,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739985130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.018}
+  m_LocalPosition: {x: 0, y: 0, z: 0.006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3562,7 +3498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.024, y: 0.039}
+  m_AnchoredPosition: {x: -0.026, y: -0.072}
   m_SizeDelta: {x: 0.8584, y: 0.7774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739985132
@@ -3812,13 +3748,12 @@ RectTransform:
   m_Children:
   - {fileID: 1739985131}
   - {fileID: 1239425073}
-  - {fileID: 2045165515}
   m_Father: {fileID: 1614049502}
   m_LocalEulerAnglesHint: {x: 0, y: 16.827, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.222, y: 0.7904}
-  m_SizeDelta: {x: -1.1796, y: -1.3693}
+  m_AnchoredPosition: {x: 0.222, y: 0.6666}
+  m_SizeDelta: {x: -1.1796, y: -1.6169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820134907
 MonoBehaviour:
@@ -3886,8 +3821,7 @@ Transform:
   m_LocalPosition: {x: 0.5227321, y: -4.804647, z: 19.227024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1549581854}
+  m_Children: []
   m_Father: {fileID: 734097957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1953578952
@@ -3947,8 +3881,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kelelawar pemakan serangga dengan daun hidung berbentuk tapal kuda khas
-    Rhinolophus. Hidup berkoloni di gua-gua lembap.
+  m_text: Ikan gua endemik berwarna pucat hingga putih, dengan mata sangat kecil
+    bahkan hilang. Hidup di perairan danau bawah tanah.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
@@ -4025,78 +3959,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953578952}
   m_CullTransparentMesh: 1
---- !u!1 &2045165514
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2045165515}
-  - component: {fileID: 2045165517}
-  - component: {fileID: 2045165516}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2045165515
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045165514}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1820134906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.109}
-  m_SizeDelta: {x: 0.3, y: 0.2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2045165516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045165514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4914df01bf8586844afc5abaf9bcb3f0, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &2045165517
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045165514}
-  m_CullTransparentMesh: 1
 --- !u!1 &2114526278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4116,7 +3978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2114526279
 RectTransform:
   m_ObjectHideFlags: 0

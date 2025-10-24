@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Kalacemeti.unity
     guid: 30ae28b7b97d4424fb2df6d792464b5c
   - enabled: 1
-    path: Assets/Scenes/MateriGua.unity
-    guid: 72fc25f62a975964c888c28d16b0498d
+    path: Assets/Scenes/Kelelawar.unity
+    guid: 57a6a3df10d774d41bb7d714f7ac40e2
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}

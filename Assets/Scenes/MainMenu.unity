@@ -981,7 +981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &643861312
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1615,8 +1615,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 879202403}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_TargetAssemblyTypeName: PDFLinkOpener, Assembly-CSharp
+        m_MethodName: OpenPDFLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1673,10 +1673,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 879202398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef8e25e438a4a2540bbcc6054300f662, type: 3}
+  m_Script: {fileID: 11500000, guid: 41203cb0d49db8a4ba9ed8b6d60a77ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MateriGua
+  pdfURL: https://drive.google.com/file/d/1pOt6o4PYIC5rekzBTmzfhD-3bQns5NAs/view?usp=sharing
 --- !u!1 &892619534
 GameObject:
   m_ObjectHideFlags: 0

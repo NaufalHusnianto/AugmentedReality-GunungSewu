@@ -611,21 +611,20 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'D. FAUNA RENTAN PUNAH
 
-    Fauna yang telah beradaptasi di dalam gua
-    mempunyai kisaran toleransi yang sempit terhadap perubahan lingkungan di dalam
-    dan di luar gua. Beberapa spesies hidup di kolam-kolam kecil dan hidupnya hanya
-    bergan- tung pada air rembesan dari dinding gua. Ketika kolam-kolam kecil ini
-    terganggu atau hilang, banyak fauna yang hidup di dalamnya ikut hilang, bahkan
-    punah dari dalam gua. Kondisi ini sangat tidak menguntungkan karena kehilangan
-    satu spesies khas gua di suatu gua dapat menyebabkan hilangnya spesies tersebut
-    di muka bumi. Karena ekosistem gua merupakan lingkungan tertutup, hilangnya satu
-    spesies penghuninya akan mengganggu keseimbangan hidupan yang ada.
+    Fauna yang telah beradaptasi di dalam gua mempunyai
+    kisaran toleransi yang sempit terhadap perubahan lingkungan di dalam dan di luar
+    gua. Beberapa spesies hidup di kolam-kolam kecil dan hidupnya hanya bergan- tung
+    pada air rembesan dari dinding gua. Ketika kolam-kolam kecil ini terganggu atau
+    hilang, banyak fauna yang hidup di dalamnya ikut hilang, bahkan punah dari dalam
+    gua. Kondisi ini sangat tidak menguntungkan karena kehilangan satu spesies khas
+    gua di suatu gua dapat menyebabkan hilangnya spesies tersebut di muka bumi. Karena
+    ekosistem gua merupakan lingkungan tertutup, hilangnya satu spesies penghuninya
+    akan mengganggu keseimbangan hidupan yang ada.
 
-    Ancaman
-    gangguan baik dari dalam gua maupun luar gua berupa aktivitas penelusuran gua
-    dapat menjadi penyebab kepunahan fauna khas gua. Oleh karena itu, pengelolaan
-    karst dan gua khususnya wisata gua harus dilakukan dengan pertimbangan hidupan
-    yang ada di dalam gua.
+    Ancaman gangguan baik dari
+    dalam gua maupun luar gua berupa aktivitas penelusuran gua dapat menjadi penyebab
+    kepunahan fauna khas gua. Oleh karena itu, pengelolaan karst dan gua khususnya
+    wisata gua harus dilakukan dengan pertimbangan hidupan yang ada di dalam gua.
 
 '
   m_isRightToLeft: 0
@@ -828,7 +827,7 @@ GameObject:
   - component: {fileID: 370967685}
   - component: {fileID: 370967684}
   m_Layer: 5
-  m_Name: Paragraf11 (1)
+  m_Name: Paragraf12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -880,10 +879,10 @@ MonoBehaviour:
     belakang, banyak ditemukan di luar dan di dalam gua. Spesies-spesies tersebut
     mempunyai keunikan dan kekhasan tersendiri.
 
-    Fauna-fauna yang ditemukan
-    di Gunungsewu dikelompokkan dalam dua kelompok besar, yaitu bertulang belakang
-    dan tidak bertulang belakang, baik yang ditemukan di dalam maupun di luar gua.
-    Kedua kelompok ini meliputi:
+    Fauna-fauna yang ditemukan di
+    Gunungsewu dikelompokkan dalam dua kelompok besar, yaitu bertulang belakang dan
+    tidak bertulang belakang, baik yang ditemukan di dalam maupun di luar gua. Kedua
+    kelompok ini meliputi:
 
 '
   m_isRightToLeft: 0
@@ -1844,9 +1843,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Foto: Rahmadi (2007)
 
-    Gambar 5. Udang Putih, Macrobrachium poeti
-    khas Gunungsewu, dan Kepiting jacobson, Karstarma jacobsoni, yang Ditemukan di
-    Sungai Bawah Tanah di Gua Gilap, Ponjong
+    Gambar 5. Udang Putih, Macrobrachium poeti khas
+    Gunungsewu, dan Kepiting jacobson, Karstarma jacobsoni, yang Ditemukan di Sungai
+    Bawah Tanah di Gua Gilap, Ponjong
 
 '
   m_isRightToLeft: 0
@@ -2350,7 +2349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47.3431, y: 268.1}
+  m_AnchoredPosition: {x: 64, y: 264}
   m_SizeDelta: {x: 159.1139, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735995194
@@ -2400,8 +2399,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2559,7 +2558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -111, y: 267.4}
+  m_AnchoredPosition: {x: -113, y: 267.4}
   m_SizeDelta: {x: 26.7948, y: 31.1847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &872883207
@@ -2825,12 +2824,13 @@ RectTransform:
   - {fileID: 1539039377}
   - {fileID: 206283782}
   - {fileID: 370967683}
-  m_Father: {fileID: 1459371698}
+  - {fileID: 1657200359}
+  m_Father: {fileID: 1471507626}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -15, y: 0}
-  m_SizeDelta: {x: 7, y: 5480.3574}
+  m_SizeDelta: {x: -10, y: 5480.3574}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1059563275
 GameObject:
@@ -3321,8 +3321,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1040999695}
+  m_Children: []
   m_Father: {fileID: 1471507626}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3414,6 +3413,7 @@ RectTransform:
   m_Children:
   - {fileID: 1459371698}
   - {fileID: 501728589}
+  - {fileID: 1040999695}
   m_Father: {fileID: 1628014409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3763,11 +3763,11 @@ MonoBehaviour:
 
     peneliti Inggris, Schultz,
 
-    mempublikasikan dua
-    spesies Isopoda gua dari Gunungsewu. Spesies per- tama merupakan genus baru dan
-    sekaligus spesies endemik Jawa, yaitu Javanoscia elongata; spesies kedua adalah
-    Tenebrioscia antennuata. Kedua spesies tersebut dikenal hanya dari lokasi pertama
-    kali ditemukan di Gunungsewu, tepatnya di Gua Bribin dan Gua Semuluh.
+    mempublikasikan dua spesies
+    Isopoda gua dari Gunungsewu. Spesies per- tama merupakan genus baru dan sekaligus
+    spesies endemik Jawa, yaitu Javanoscia elongata; spesies kedua adalah Tenebrioscia
+    antennuata. Kedua spesies tersebut dikenal hanya dari lokasi pertama kali ditemukan
+    di Gunungsewu, tepatnya di Gua Bribin dan Gua Semuluh.
 
 '
   m_isRightToLeft: 0
@@ -4204,7 +4204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33.7509, y: 0.1414}
+  m_AnchoredPosition: {x: -37, y: 0.1414}
   m_SizeDelta: {x: 63.8555, y: 28.6072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648420034
@@ -4303,6 +4303,163 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648420032}
+  m_CullTransparentMesh: 1
+--- !u!1 &1657200358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657200359}
+  - component: {fileID: 1657200361}
+  - component: {fileID: 1657200360}
+  m_Layer: 5
+  m_Name: Paragraf12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1657200359
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657200358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1040999695}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10.000008, y: -2342}
+  m_SizeDelta: {x: 189.8572, y: 280.1575}
+  m_Pivot: {x: 0.5, y: 0.49999997}
+--- !u!114 &1657200360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657200358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '1. Invertebrata
+
+    Hadisusanto (1996) meneliti spesies-spesies arthropoda
+    permukaan tanah di dalam Gua Seropan dan Gua Semuluh yang dikumpulkan menggunakan
+    perangkap sumuran. Dari luar mulut Gua Seropan, diperoleh keanekaragaman takson;
+    dan yang paling melimpah adalah Akari dari famili Tyroglyphidae sebanyak 80 individu
+    per perangkap. Dari dalam Gua Seropan diperoleh Acari, Coleoptera, Collembola,
+    Orthoptera, dan Psocoptera. Orthoptera berjumlah 89 individu per lima perangkap.
+    Di luar Gua Semuluh diperoleh spesies yang lebih banyak dengan kelompok takson
+    yang paling melimpah, yakni Hymenoptera, khususnya Formicidae (285 individu per
+    perangkap). Di dalam Gua Semuluh diperoleh hanya tiga kelompok, yaitu Akari,
+    Diptera, dan Hymenoptera.
+
+    Rahmadi (2005) melaporkan keanekaragaman arthropoda
+    gua dengan jumlah 45 spesies. Ia mengelompokkan temuannya berdasarkan kelompok
+    ekologi, yaitu troglobit (8 spesies), stigobit (3 spesies), troglofil (18 spesies),
+    stigofil (3 spesies), dan guanofil (3 spesies), serta satu spesies dikategorikan
+    antara troglosen dan troglofil serta satu spesies troglofil dan guanofil.
+
+    Rincian
+    tentang kelompok invertebrata khususnya invertebrata yang ada di dalam dan di
+    luar gua adalah:
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
+  m_sharedMaterial: {fileID: 4687939059374929122, guid: d1728ba5990034831bbe01f3a2578b70, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.9006443}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1657200361
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657200358}
   m_CullTransparentMesh: 1
 --- !u!1 &1880328533
 GameObject:
